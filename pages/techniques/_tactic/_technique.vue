@@ -10,12 +10,12 @@
         <v-container>
             <v-card class="elevation-0">
                 <v-card-title>
-                    <h2>{{ item.title }}</h2>
+                    <h2>{{ subItem.title }}</h2>
                 </v-card-title>
                 <v-card-text class="text--primary">
                     <v-row no-gutters>
                         <v-col cols="10">
-                            <div class="description-area">{{ item.description }}</div>
+                            <div class="description-area">{{ subItem.description }}</div>
                         </v-col>
                         <v-col cols="2">
                             <v-card class="elevation-0" style="border: 1px solid #000;" width="100%" height="100%">
