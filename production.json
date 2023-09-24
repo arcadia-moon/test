@@ -1,0 +1,18 @@
+{
+    "apps": [
+      {
+        "name": "SCTM-WEB",
+        "script": "./node_modules/nuxt/bin/nuxt.js",
+        "args": "start -c ./nuxt.config.js",
+        "watch": false,
+        "exec_mode": "cluster",
+        "instances": 0,
+        "time": true,
+        "env": {
+          "NODE_ENV": "production",
+          "HOST": "0.0.0.0",
+          "PORT": 8000
+        }
+      }
+    ]
+  }
