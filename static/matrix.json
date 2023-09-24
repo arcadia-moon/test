@@ -1,0 +1,686 @@
+{
+    "tactics": {
+        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access."
+    },
+    "techniques": {
+        "description": "Techniques represent 'how' an adversary achieves a tactical goal by performing an action. For example, an adversary may dump credentials to achieve credential access."
+    },
+    "items": [
+        {
+            "id": "TA0001",
+            "title": "Reconnaissance",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/reconnaissance",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0001",
+                    "title": "Search Open Websites",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/search-open-websites",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0002",
+                    "title": "Phishing for Information",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/phishing-for-information",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0003",
+                    "title": "Search Blockchain Explorer",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/search-blockchain-explorer",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0002",
+            "title": "Initial Access",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/initial-access",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0004",
+                    "title": "Public Blockchain",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/public-blockchain",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0003",
+            "title": "Execution",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/execution",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0005",
+                    "title": "DelegateCall",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/delegatecall",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0006",
+                    "title": "Direct Call",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/direct-call",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0007",
+                    "title": "Reentrancy",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/reentrancy",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0008",
+                    "title": "multiple calls in a single transaction",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/multiple-calls-in-a-single-transaction",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0009",
+                    "title": "untrusted transaction relayer",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/untrusted-transaction-relayer",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0004",
+            "title": "Privilege Escalation",
+            "subTitle": "(Access Control)",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/privilege-escalation",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0010",
+                    "title": "Default Function Visibility",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/default-function-visibility",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0011",
+                    "title": "Data Type Overflow",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/data-type-overflow",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0012",
+                    "title": "Reinitializing Constructor",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/reinitializing-constructor",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0013",
+                    "title": "Ownable",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/ownable",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0014",
+                    "title": "Default State Varibale Visibility",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/default-state-varibale-visibility",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0015",
+                    "title": "Uninitialized Storage Pointer",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/uninitialized-storage-pointer",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0016",
+                    "title": "Delegatecall to Untrusted Callee",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/delegatecall-to-untrusted-callee",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0017",
+                    "title": "Authorization through tx.origin",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/authorization-through-tx-origin",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0018",
+                    "title": "Arbitrary write to Storage Location",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/arbitrary-write-to-storage-location",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0019",
+                    "title": "Typo Error",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/typo-error",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0005",
+            "title": "Defense Evasion",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "subTitle": "(condition detour)",
+            "to": "/defense-evasion",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0020",
+                    "title": "Data Type Overflow",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/data-type-overflow",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites",
+                        "examples": [{
+                            "id": "EX0001",
+                            "title": "EXAMPLE 0001",
+                            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                            "to": "/search-open-websites"
+                        }]
+                    }]
+                },
+                {
+                    "id": "T0021",
+                    "title": "blockvalue as a timestamp",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/blockvalue-as-a-timestamp",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0022",
+                    "title": "Signature Malleability",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/signature-malleability",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0023",
+                    "title": "Authorization through tx.origin",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/authorization-through-tx.origin",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0024",
+                    "title": "Weak Randomness using block variables",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/weak-randomness-using-block-variables",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0025",
+                    "title": "Arbitrary write to Storage Location",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/arbitrary-write-to-storage-location",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0026",
+                    "title": "Delegatecall to Untrusted Callee",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/delegatecall-to-untrusted-callee",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0027",
+                    "title": "Authorization through tx.origin",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/authorization-through-tx-origin",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0028",
+                    "title": "Arbitrary Access with Low Level Call (mstore, assign)",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/arbitrary-access-with-low-level-call",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0029",
+                    "title": "verification",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/verification",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0030",
+                    "title": "Improper Verification of Cryptographic Signature",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/improper-verification-of-cryptographic-signature",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0031",
+                    "title": "insecure signature verification",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/insecure-signature-verification",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0032",
+                    "title": "Hash Collisions With Multiple Variable Length Arguments",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/hash-collisions-with-multiple-variable-length-arguments",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0006",
+            "title": "Discovery",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/discovery",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0033",
+                    "title": "Smart Contract Private Key Discovery",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/smart-contract-private-key-discovery",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0034",
+                    "title": "unencrypted Private Variable",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/unencrypted-private-variable",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0035",
+                    "title": "Signature Malleability",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/signature-malleability",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0036",
+                    "title": "Block Variable",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/block-variable",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0007",
+            "title": "Impact",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/impact",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0037",
+                    "title": "Transfer Smart Contract Balance",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/transfer-smart-contract-balance",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0038",
+                    "title": "Data Destruction",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/data-destruction",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0039",
+                    "title": "Storage Manipulation",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/storage-manipulation",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0040",
+                    "title": "DOS revert",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/dos-revert",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0041",
+                    "title": "Out of Gas Limit",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/out-of-gas-limit",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0042",
+                    "title": "SELFDESTRUCT",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/selfdestruct",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        },
+        {
+            "id": "TA0008",
+            "title": "Managing",
+            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+            "to": "/managing",
+            "created": "17 October 2018",
+            "updated": "19 July 2019",
+            "items": [
+                {
+                    "id": "T0043",
+                    "title": "Mixers",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/mixers",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0044",
+                    "title": "Gambling",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/gambling",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0045",
+                    "title": "Atomic-Swap",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/atomic-swap",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0046",
+                    "title": "Confidential Transactions (CTs)",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/confidential-transactions",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0047",
+                    "title": "CoinJoin",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/coinjoin",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0048",
+                    "title": "Zero-Knowledge Proofs (ZKPs)",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/zero-knowledge-proofs",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                },
+                {
+                    "id": "T0049",
+                    "title": "Stealth Addresses",
+                    "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                    "to": "/stealth-addresses",
+                    "examples": [{
+                        "id": "EX0001",
+                        "title": "EXAMPLE 0001",
+                        "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                        "to": "/search-open-websites"
+                    }]
+                }
+            ]
+        }
+    ]
+}
