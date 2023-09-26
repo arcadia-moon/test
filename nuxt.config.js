@@ -1,5 +1,5 @@
 import colors from 'vuetify/es5/util/colors'
-console.log(`NOW ROUTER BASE PATH : /${process.env.REPOSITORY_NAME}`)
+console.log(`NOW ROUTER BASE PATH : /${process.env}`)
 
 
 export default {
