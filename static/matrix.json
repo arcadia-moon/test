@@ -97,10 +97,10 @@
                     "to": "/delegatecall",
                     "examples": [
                         {
-                            "id": "EX0001",
-                            "title": "EXAMPLE 0001",
+                            "id": "EX0008",
+                            "title": "EXAMPLE 0008",
                             "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
-                            "to": "/search-open-websites"
+                            "to": "/EX0008"
                         }
                     ],
                     "reference": [
@@ -164,9 +164,9 @@
                     "to": "/reentrancy",
                     "examples": [
                         {
-                            "id": "EX0001",
-                            "title": "EXAMPLE 0001",
-                            "description": "Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
+                            "id": "EX0009",
+                            "title": "EXAMPLE 0009",
+                            "description": "!!! Tactics represent the \"why\" of an ATT&CK technique or sub-technique. It is the adversary's tactical goal: the reason for performing an action. For example, an adversary may want to achieve credential access.",
                             "to": "/search-open-websites"
                         }
                     ],
