@@ -25,6 +25,8 @@ jobs:
         run: yarn
 
       - name: Generate
+        env:
+          REPOSITORY_NAME: Hello
         run: env REPOSITORY_NAME=${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/} && yarn generate
 
       - name: Deploy

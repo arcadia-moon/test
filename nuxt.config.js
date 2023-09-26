@@ -1,12 +1,12 @@
 import colors from 'vuetify/es5/util/colors'
-console.log(`NOW ROUTER BASE PATH : /${process.env.REPOSITORY_NAME ? process.env.REPOSITORY_NAME : ""}`)
+console.log(`NOW ROUTER BASE PATH : /${process.env.GITHUB_REPOSITORY && process.env.GITHUB_REPOSITORY.split('/').length > 1 ? process.env.GITHUB_REPOSITORY.split('/')[1] : ""}`)
 console.log(JSON.stringify(process.env))
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
   router: {
-    base: `/test`
+    base: `/${process.env.GITHUB_REPOSITORY && process.env.GITHUB_REPOSITORY.split('/').length > 1 ? process.env.GITHUB_REPOSITORY.split('/')[1] : ""}`
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
