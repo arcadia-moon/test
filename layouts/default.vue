@@ -24,8 +24,17 @@
     <v-main>
       <Nuxt />
     </v-main>
-    <v-footer app>
-      <span>&copy; {{ new Date().getFullYear() }}</span>
+    <v-footer color="#7f0025" style="height: 50px; align-content: center;">
+      <v-img :src="require(`~/assets/sctm-logo-w.png`)" contain max-width="200" max-height="50"></v-img>
+      <v-spacer />
+      <span style="color: #fff; align-self: center;">&copy; 2018-{{ new Date().getFullYear() }}
+        This website has been created as a result
+        of
+        individual research and is not intended for any commercial use.</span>
+      <v-spacer />
+      <v-btn>
+        <a href="https://github.com/tr0y-kim">Contract</a>
+      </v-btn>
     </v-footer>
   </v-app>
 </template>
@@ -63,8 +72,13 @@ export default {
 .page-leave-active {
   transition: opacity 0.5s;
 }
+
 .page-enter,
 .page-leave-to {
   opacity: 0;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

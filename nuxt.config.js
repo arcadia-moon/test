@@ -6,7 +6,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - SCTM',
+    titleTemplate: 'SCTM - %s',
     title: 'SCTM',
     htmlAttrs: {
       lang: 'en'
@@ -41,7 +41,12 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/markdownit'
   ],
+
+  markdownit: {
+    injected: false
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

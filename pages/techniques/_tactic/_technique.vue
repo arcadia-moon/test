@@ -28,7 +28,7 @@
                         </v-col>
                     </v-row>
                 </v-card-text>
-                <v-card-text class="text--primary">
+                <v-card-text class="text--primary" v-if="subItem.examples && subItem.examples.length > 0">
                     <div class="techniques-table-area">
                         <h2>Procedure Examples</h2>
                         <v-simple-table>
@@ -51,6 +51,35 @@
                                         <td>{{ example.id }}</td>
                                         <td>{{ example.title }}</td>
                                         <td>{{ example.description }}</td>
+                                    </tr>
+                                </tbody>
+                            </template>
+                        </v-simple-table>
+                    </div>
+                </v-card-text>
+                <v-card-text class="text--primary" v-if="subItem.reference && subItem.reference.length > 0">
+                    <div class="techniques-table-area">
+                        <h2>Reference</h2>
+                        <v-simple-table>
+                            <template v-slot:default>
+                                <thead>
+                                    <tr>
+                                        <th class="text-left">
+                                            ID
+                                        </th>
+                                        <th class="text-left">
+                                            NAME
+                                        </th>
+                                        <th class="text-left">
+                                            Description
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr v-for="(reference, index) in subItem.reference" :key="index" style="cursor: pointer;">
+                                        <td>{{ reference.id }}</td>
+                                        <td>{{ reference.name }}</td>
+                                        <td><a :href="reference.link" target="_blank" rel="noopener noreferrer">{{ reference.link }}</a></td>
                                     </tr>
                                 </tbody>
                             </template>
