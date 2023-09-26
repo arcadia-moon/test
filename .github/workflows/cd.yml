@@ -25,7 +25,7 @@ jobs:
         run: yarn
 
       - name: Generate
-        run: export REPOSITORY_NAME=${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/} && yarn generate
+        run: env REPOSITORY_NAME=${GITHUB_REPOSITORY#${GITHUB_REPOSITORY_OWNER}/} && yarn generate
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
