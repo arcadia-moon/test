@@ -10,54 +10,32 @@
         <v-container>
             <v-card class="elevation-0">
                 <v-card-title>
-                    <h2>{{ subItem.title }}</h2>
+                    <h2>{{ example.title }}</h2>
                 </v-card-title>
                 <v-card-text class="text--primary">
                     <v-row no-gutters>
                         <v-col cols="10">
-                            <div class="description-area">{{ subItem.description }}</div>
+                            <div class="description-area">{{ example.description }}</div>
                         </v-col>
                         <v-col cols="2">
                             <v-card class="elevation-0" style="border: 1px solid #000;" width="100%" height="100%">
                                 <v-card-text class="text--primary">
-                                    <p>ID: {{ item.id }}</p>
-                                    <p>Created: {{ item.created }}</p>
-                                    <p>Last Modified: {{ item.updated }}</p>
+                                    <p>ID: {{ example.id }}</p>
+                                    <p>Created: {{ example.created }}</p>
+                                    <p>Last Modified: {{ example.updated }}</p>
                                 </v-card-text>
                             </v-card>
                         </v-col>
                     </v-row>
                 </v-card-text>
-                <v-card-text class="text--primary" v-if="subItem.examples && subItem.examples.length > 0">
+
+                <v-card-text class="text--primary" v-if="samples">
                     <div class="techniques-table-area">
-                        <h2>Procedure Examples</h2>
-                        <v-simple-table>
-                            <template v-slot:default>
-                                <thead>
-                                    <tr>
-                                        <th class="text-left">
-                                            ID
-                                        </th>
-                                        <th class="text-left">
-                                            NAME
-                                        </th>
-                                        <th class="text-left">
-                                            Description
-                                        </th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr v-for="(example, index) in subItem.examples" :key="index" style="cursor: pointer;">
-                                        <td>{{ example.id }}</td>
-                                        <td>{{ example.title }}</td>
-                                        <td>{{ example.description }}</td>
-                                    </tr>
-                                </tbody>
-                            </template>
-                        </v-simple-table>
+                        <h2 style="margin-bottom: 5px;">Samples</h2>
+                        <div class="markdown-body" v-html="samples"></div>
                     </div>
                 </v-card-text>
-                <v-card-text class="text--primary" v-if="subItem.reference && subItem.reference.length > 0">
+                <v-card-text class="text--primary" v-if="example.reference && example.reference.length > 0">
                     <div class="techniques-table-area">
                         <h2>Reference</h2>
                         <v-simple-table>
@@ -76,10 +54,12 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr v-for="(reference, index) in subItem.reference" :key="index" style="cursor: pointer;">
+                                    <tr v-for="(reference, index) in example.reference" :key="index"
+                                        style="cursor: pointer;">
                                         <td>{{ reference.id }}</td>
                                         <td>{{ reference.name }}</td>
-                                        <td><a :href="reference.link" target="_blank" rel="noopener noreferrer">{{ reference.link }}</a></td>
+                                        <td><a :href="reference.link" target="_blank" rel="noopener noreferrer">{{
+                                            reference.link }}</a></td>
                                     </tr>
                                 </tbody>
                             </template>
@@ -96,7 +76,9 @@ export default {
     data() {
         return {
             item: {},
-            subItem: {}
+            subItem: {},
+            example: {},
+            samples: ""
         };
     },
     computed: {
@@ -117,19 +99,34 @@ export default {
                 const __data = this.item.items.filter(x => x.to === "/" + this.$route.params.technique)
                 if (__data && __data.length > 0) {
                     this.subItem = __data[0];
-                    return [
-                        ..._default,
-                        {
-                            text: this.item.title,
-                            disabled: false,
-                            href: `/tactics/${this.$route.params.tactic}`,
-                        },
-                        {
-                            text: this.subItem.title,
-                            disabled: true,
-                            href: `/techniques/${this.$route.params.tactic}/${this.$route.params.technique}`,
+                    const ___data = this.subItem.examples.filter(x => x.to === "/" + this.$route.params.example)
+                    if (___data && ___data.length > 0) {
+                        this.example = ___data[0];
+                        try {
+                            this.samples = require(`~/static/example/${this.example.id}.md`).default
                         }
-                    ]
+                        catch {
+
+                        }
+                        return [
+                            ..._default,
+                            {
+                                text: this.item.title,
+                                disabled: false,
+                                href: `/tactics/${this.$route.params.tactic}`,
+                            },
+                            {
+                                text: this.subItem.title,
+                                disabled: false,
+                                href: `/techniques/${this.$route.params.tactic}/${this.$route.params.technique}`,
+                            },
+                            {
+                                text: this.example.title,
+                                disabled: true,
+                                href: `/techniques/${this.$route.params.tactic}/${this.$route.params.technique}/${this.$route.params.example}`,
+                            }
+                        ]
+                    }
                 }
             }
             return _default
@@ -144,6 +141,7 @@ export default {
     flex: 1;
     flex-direction: column;
 }
+
 p {
     margin-bottom: 0px;
 }

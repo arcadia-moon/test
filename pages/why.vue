@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <div v-html="require(`~/assets/why-header.md`).default"></div>
+        <div class="markdown-body" v-html="require(`~/assets/why-header.md`).default"></div>
         <h2>QnA</h2>
         <v-row no-gutters>
             <v-alert v-for="(item, index) in qna" :key="index" :value="true" icon="mdi-information" :color="item.color"

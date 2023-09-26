@@ -16,7 +16,7 @@
                 </v-row>
             </v-col>
             <v-col>
-                <div v-html="require(`~/assets/profile.md`).default"></div>
+                <div class="markdown-body" v-html="require(`~/assets/profile.md`).default"></div>
             </v-col>
         </v-row>
 
