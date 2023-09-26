@@ -103,6 +103,9 @@
 <script>
 import data from '~/static/matrix.json'
 export default {
+    head: {
+      title: `TECHNIQUE - ${this.$route.params.technique}`,
+    },
     data() {
         return {
             item: {},

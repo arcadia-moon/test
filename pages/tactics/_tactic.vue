@@ -70,6 +70,9 @@
 <script>
 import data from '~/static/matrix.json'
 export default {
+    head: {
+      title: 'TACTIC - ' + this.$route.params.tactic,
+    },
     data() {
         return {
             item: {},

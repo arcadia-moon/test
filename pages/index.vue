@@ -14,8 +14,10 @@
               developers of Smart Contracts can gain insight into which tactics and techniques need to be prioritized and
               safeguarded against. For those wishing to delve deeper into this, please click on the <NuxtLink to="/why">
                 'Why?'</NuxtLink> tab.</p>
-            <p>This matrix is inspired by and developed from the <a href="https://attack.mitre.org/" target="_blank" rel="noopener noreferrer">MITRE ATT&CK
-                framework</a> and the <a href="https://swcregistry.io/" target="_blank" rel="noopener noreferrer">SWC Registry</a>, which catalog
+            <p>This matrix is inspired by and developed from the <a href="https://attack.mitre.org/" target="_blank"
+                rel="noopener noreferrer">MITRE ATT&CK
+                framework</a> and the <a href="https://swcregistry.io/" target="_blank" rel="noopener noreferrer">SWC
+                Registry</a>, which catalog
               known vulnerabilities. It consolidates possible TTPs that can occur in Smart Contracts, offering a
               comprehensive overview of potential threat landscapes in the realm of blockchain-based contracts.</p>
           </v-row>
@@ -59,6 +61,9 @@
 <script>
 import { items } from '~/static/matrix.json'
 export default {
+  head: {
+    title: `HOME`,
+  },
   data() {
     return {
       items: [],

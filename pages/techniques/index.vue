@@ -47,6 +47,9 @@
 <script>
 import matrix from '~/static/matrix.json'
 export default {
+    head: {
+      title: `TECHNIQUE`,
+    },
     data() {
         return {
             item: {},

@@ -26,6 +26,9 @@
 
 <script>
 export default {
+    head: {
+      title: `PROFILE`,
+    },
     data() {
         return {
 

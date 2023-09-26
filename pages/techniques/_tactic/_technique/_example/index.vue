@@ -73,6 +73,9 @@
 <script>
 import data from '~/static/matrix.json'
 export default {
+    head: {
+      title: `EXAMPLE - ${this.$route.params.example}`,
+    },
     data() {
         return {
             item: {},

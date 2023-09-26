@@ -18,6 +18,9 @@
 
 <script>
 export default {
+    head: {
+      title: `WHY`,
+    },
     data() {
         return {
             qna: [{
