@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tactics/privilege-escalation", {data:[{},{}],fetch:{},mutations:void 0});

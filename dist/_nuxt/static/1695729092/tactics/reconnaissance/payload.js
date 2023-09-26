@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/tactics/reconnaissance", {data:[{},{}],fetch:{},mutations:void 0});
