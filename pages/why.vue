@@ -11,7 +11,7 @@
         </v-row>
         <h2>Reference</h2>
         <v-row no-gutters>
-            <li v-for="(item, index) in reference" :key="index">{{ item.text }}</li>
+            <li v-for="(item, index) in reference" :key="index"><a :href="item.link">{{ item.text }}</a></li>
         </v-row>
     </v-container>
 </template>
