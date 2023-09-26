@@ -33,7 +33,7 @@
         individual research and is not intended for any commercial use.</span>
       <v-spacer />
       <v-btn>
-        <a href="https://github.com/tr0y-kim">Contract</a>
+        <a href="https://github.com/tr0y-kim">Contact</a>
       </v-btn>
     </v-footer>
   </v-app>
