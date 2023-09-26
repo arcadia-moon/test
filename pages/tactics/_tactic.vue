@@ -71,7 +71,7 @@
 import data from '~/static/matrix.json'
 export default {
     head: {
-      title: 'TACTIC - ' + this.$route.params.tactic,
+      title: 'TACTIC',
     },
     data() {
         return {

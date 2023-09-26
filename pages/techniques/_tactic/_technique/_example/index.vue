@@ -74,7 +74,7 @@
 import data from '~/static/matrix.json'
 export default {
     head: {
-      title: `EXAMPLE - ${this.$route.params.example}`,
+      title: `EXAMPLE`,
     },
     data() {
         return {
